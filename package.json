@@ -6,10 +6,20 @@
     "build": "vite build"
   },
   "dependencies": {
+    "typescript": "^3.9.7",
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.1",
-    "@vue/compiler-sfc": "^3.0.0-rc.1"
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^7.5.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.0.0-beta.0",
+    "prettier": "^2.0.5",
+    "vite": "^1.0.0-rc.1"
   }
 }
